@@ -38,9 +38,9 @@ export default function Footer() {
           src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3011.8254336035066!2d29.047830500000003!3d40.9853032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU5JzA3LjEiTiAyOcKwMDInNTIuMiJF!5e0!3m2!1str!2str!4v1722012689296!5m2!1str!2str"
           width="300"
           height="200"
-          allowfullscreen
+          allowFullScreen={true}
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
 

@@ -6,37 +6,37 @@ export default function Nav() {
     <nav className="nav">
       <menu>
         <li>
-          <NavLink to="/" exact activeClassName="active">
+          <NavLink to="/">
             <h3>Home</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" activeClassName="active">
+          <NavLink to="/about">
             <h3>About</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/crew" activeClassName="active">
+          <NavLink to="/crew">
             <h3>Crew</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/services" activeClassName="active">
+          <NavLink to="/services">
             <h3>Services</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/blog" activeClassName="active">
+          <NavLink to="/blog">
             <h3>Blog</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/careers" activeClassName="active">
+          <NavLink to="/careers">
             <h3>Careers</h3>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contact" activeClassName="active">
+          <NavLink to="/contact">
             <h3>Contact</h3>
           </NavLink>
         </li>
