@@ -7,16 +7,26 @@ import { useState, useEffect } from "react";
 
 export default function Header() {
   const [width, setWidth] = useState(window.innerWidth);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuIcon, setMenuIcon] = useState("☰");
+
+  const handleResize = () => {
+    setWidth(window.innerWidth);
+  };
+
   useEffect(() => {
-    window.addEventListener("resize", () => setWidth(window.innerWidth));
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
     if (width > 808) {
       setMenuOpen(false);
       setMenuIcon("☰");
     }
-  }, [window.innerWidth]);
-
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [menuIcon, setMenuIcon] = useState("☰");
+  }, [width]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
