@@ -13,7 +13,7 @@ export default function TogglerMenu() {
 
   return (
     <>
-      <nav className="nav">
+      <nav className="nav" style={{ marginBottom: "1.2rem" }}>
         <menu>
           <li>
             <NavLink to="/">Home</NavLink>
