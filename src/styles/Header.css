@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
   padding: 20px 70px;
@@ -27,7 +28,7 @@ header {
   width: 220px;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1050px) {
   header {
     justify-content: center;
     padding: 20px 20px;

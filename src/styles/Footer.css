@@ -1,0 +1,44 @@
+footer {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer picture {
+  flex: 1;
+  max-width: 40%;
+  padding: 20px 100px;
+  margin: auto;
+}
+footer > img {
+  width: 140px;
+  height: 270px;
+  object-fit: contain;
+}
+
+footer > section {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: start;
+  margin: 20px;
+}
+
+.footer-text a {
+  font-size: 1.2rem;
+  color: #333333;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #014946;
+}
+
+.footer-text a *,
+.footer-map * {
+  font-weight: 500;
+}
