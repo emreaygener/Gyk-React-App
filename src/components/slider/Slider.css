@@ -1,0 +1,27 @@
+.carousel-caption {
+  height: 560px;
+  align-content: center;
+  padding: 0px !important;
+}
+
+.carousel-caption * {
+  padding-top: 10px;
+  background: linear-gradient(to left, #7928ca, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#carousel-img {
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.carousel-caption h1 {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}

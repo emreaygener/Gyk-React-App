@@ -1,16 +1,7 @@
-import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../styles/Nav.css";
 
 export default function TogglerMenu() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [menuIcon, setMenuIcon] = useState("☰");
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-    setMenuIcon(menuOpen ? "☰" : "✖");
-  };
-
   return (
     <>
       <nav className="nav" style={{ marginBottom: "1.2rem" }}>
