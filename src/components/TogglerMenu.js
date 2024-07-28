@@ -4,7 +4,10 @@ import "../styles/Nav.css";
 export default function TogglerMenu() {
   return (
     <>
-      <nav className="nav" style={{ marginBottom: "1.2rem" }}>
+      <nav
+        className="nav"
+        style={{ marginBottom: "1.2rem", justifyContent: "center" }}
+      >
         <menu>
           <li>
             <NavLink to="/">Home</NavLink>

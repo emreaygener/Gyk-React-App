@@ -12,7 +12,7 @@ header {
   font-size: 2rem;
   text-align: center;
   cursor: pointer;
-  color: #76644e;
+  color: #76644e !important;
   background-color: #ffffff;
 
   align-content: center;
