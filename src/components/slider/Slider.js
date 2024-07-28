@@ -3,9 +3,29 @@ import "./Slider.css";
 import DataFetcher from "../../util/DataFetcher";
 
 export default function Slider() {
-  const { data, loading, error } = DataFetcher(
-    "http://localhost:5000/api/ServicesPosts"
-  );
+  // const { data, loading, error } = DataFetcher(
+  //   "http://localhost:5000/api/ServicesPosts"
+  // );
+
+  const data = [
+    {
+      id: 1,
+      title: "First slide",
+      content: "This is the first slide",
+    },
+    {
+      id: 2,
+      title: "Second slide",
+      content: "This is the second slide",
+    },
+    {
+      id: 3,
+      title: "Third slide",
+      content: "This is the third slide",
+    },
+  ];
+  const loading = false;
+  const error = null;
 
   return (
     <>
