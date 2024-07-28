@@ -1,6 +1,10 @@
-import { Route, Routes } from "react-router-dom";
 import "../styles/Main.css";
+import Hero from "./hero/Hero";
 
 export default function Main() {
-  return <main>This is the main content. some more content</main>;
+  return (
+    <main>
+      <Hero />
+    </main>
+  );
 }
