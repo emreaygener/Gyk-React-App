@@ -11,6 +11,7 @@ export default function Main() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
+        <Route path="/Gyk-React-App" element={<Homepage />} />
 
         <Route path="*" element={<h1>Site on progress..</h1>} />
       </Routes>
