@@ -6,7 +6,7 @@
 
 .carousel-caption * {
   padding-top: 10px;
-  background: linear-gradient(to left, #7928ca, #ff0080);
+  background: #333;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

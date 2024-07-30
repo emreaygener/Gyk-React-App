@@ -41,7 +41,7 @@ export default function Slider() {
               alt={slide.title}
               height={600}
             />
-            <Carousel.Caption pt-0>
+            <Carousel.Caption>
               <h1>{slide.title}</h1>
               <p>{slide.content}</p>
             </Carousel.Caption>
