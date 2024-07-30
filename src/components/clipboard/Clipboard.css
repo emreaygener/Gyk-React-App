@@ -1,15 +1,16 @@
 menu#blog-menu {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 70px 0px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
 }
 
 @media (max-width: 820px) {
   menu#blog-menu {
-    width: 90%;
+    gap: 20px;
   }
 }
 
