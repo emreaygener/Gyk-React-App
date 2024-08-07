@@ -1,0 +1,56 @@
+#about-nav {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#about-nav a {
+  text-decoration: none;
+  color: #bf975c;
+}
+
+.active-nav {
+  border-bottom: #084c44 2px solid;
+  color: #bf975c;
+}
+
+.about-content {
+  margin: auto;
+  max-width: 60dvw;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+
+  gap: 30px;
+  margin: 8vh auto;
+
+  animation-name: slideIn;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
+}
+@media screen and (min-width: 600px) {
+  .about-content {
+    min-height: 25vh;
+  }
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  color: #084c44;
+  border-bottom: #bf975c 2px solid;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(11vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

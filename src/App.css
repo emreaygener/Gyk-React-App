@@ -11,3 +11,10 @@ footer,
 main {
   overflow: hidden;
 }
+
+#root {
+  scroll-behavior: smooth;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
