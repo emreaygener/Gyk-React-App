@@ -12,26 +12,36 @@ export default function Footer() {
       <section className="footer-content">
         <div className="footer-text">
           <Link to="/contact">
-            <h3>Contact Us</h3>
+            <h3 id="contactus-footer">Contact Us</h3>
           </Link>
 
           <a
+            id="address-long"
             href={`https://www.google.com/maps/search/?api=1&query=${Address}`}
             target="_blank"
             rel="noreferrer"
           >
-            <h3>
-              FAİKBEY APT, YAZICIBAŞI MAH. LALE SOK, Kuyubaşı Sk. NO: 2, 34724
+            <h4>
+              Faikbey Apt, Yazıcıbaşı Mah. Lale Sk, Kuyubaşı Sk. NO: 2, 34724
               Kadıköy/İstanbul
-            </h3>
+            </h4>
+          </a>
+
+          <a
+            id="address-short"
+            href={`https://www.google.com/maps/search/?api=1&query=${Address}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h4>Adress</h4>
           </a>
 
           <a href="tel:+905364001010">
-            <h3>Phone</h3>
+            <h4>Phone</h4>
           </a>
 
           <a href="mailto:user@test.com">
-            <h3>Mail</h3>
+            <h4>Mail</h4>
           </a>
         </div>
 
@@ -46,7 +56,7 @@ export default function Footer() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          <p>&copy; 2021 My First React App</p>
+          <p>&copy; GYK Hukuk 2024</p>
         </div>
       </section>
     </footer>
