@@ -53,7 +53,6 @@ export default function Footer() {
             width="300"
             height="200"
             allowFullScreen={true}
-            loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
           <p>&copy; GYK Hukuk 2024</p>

@@ -56,10 +56,10 @@
   .hero {
     min-height: auto;
     margin: 0;
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   .hero img {
-    width: 360px;
+    width: 80dvw;
     height: auto;
   }
 }
