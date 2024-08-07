@@ -64,7 +64,7 @@
   background-color: #034947;
 }
 
-.card button:active {
-  background-color: #0a2627;
+.card button.btn-primary:active {
+  background-color: #034947;
   transform: scale(0.95);
 }
