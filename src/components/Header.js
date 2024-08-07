@@ -47,7 +47,7 @@ export default function Header() {
           </button>
         )}
       </header>
-      {menuOpen && <TogglerMenu />}
+      {menuOpen && <TogglerMenu toggleMenu={toggleMenu} />}
     </>
   );
 }

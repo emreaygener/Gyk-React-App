@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "../styles/Nav.css";
 
-export default function TogglerMenu() {
+export default function TogglerMenu(props) {
   return (
     <>
       <nav
@@ -10,25 +10,39 @@ export default function TogglerMenu() {
       >
         <menu>
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/" onClick={props.toggleMenu}>
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about" onClick={props.toggleMenu}>
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/crew">Crew</NavLink>
+            <NavLink to="/crew" onClick={props.toggleMenu}>
+              Crew
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/services">Services</NavLink>
+            <NavLink to="/services" onClick={props.toggleMenu}>
+              Services
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="/blog" onClick={props.toggleMenu}>
+              Blog
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/careers">Careers</NavLink>
+            <NavLink to="/careers" onClick={props.toggleMenu}>
+              Careers
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact" onClick={props.toggleMenu}>
+              Contact
+            </NavLink>
           </li>
         </menu>
       </nav>
