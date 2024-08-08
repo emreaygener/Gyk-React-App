@@ -12,3 +12,19 @@
     padding: 20px 20px;
   }
 }
+
+#crew-header {
+  width: fit-content;
+  margin: 70px;
+  color: #bf975c;
+  border-bottom: #084c44 solid 2px;
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+#crew-subheader {
+  margin: 20px;
+  color: #333333;
+  text-align: center;
+}

@@ -58,6 +58,8 @@ export default function Crew() {
           </div>
         </section>
       )} */}
+      <h1 id="crew-header">Our Crew</h1>
+      <h2 id="crew-subheader">Meet the team that makes it all happen.</h2>
       <section className="crew">
         {crew.map((crew) => (
           <Fragment key={crew.id}>
