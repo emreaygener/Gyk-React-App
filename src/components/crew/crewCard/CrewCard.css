@@ -67,15 +67,21 @@
   text-align: center;
 }
 
-.crew-card:hover {
+.crew-card:hover,
+.crew-card:active,
+.crew-card:focus {
   cursor: pointer;
 }
 
-.crew-card:hover .detail-crew {
+.crew-card:hover .detail-crew,
+.crew-card:active .detail-crew,
+.crew-card:focus .detail-crew {
   display: block;
 }
 
-.crew-card:hover .crew-text {
+.crew-card:hover .crew-text,
+.crew-card:active .crew-text,
+.crew-card:focus .crew-text {
   grid-row: 1 / span 12;
   padding: 40px;
   animation-name: fadein-text;
