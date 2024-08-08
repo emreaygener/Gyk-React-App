@@ -55,6 +55,17 @@ export default function Clipboard() {
 
       {error && <p>Error: {error.message}</p>}
 
+      {/* {!loading && !error && (
+        <section id="blog-section">
+          <menu id="blog-menu">
+            {data.map((card) => (
+              <article key={card.id}>
+                <BlogCard data={card} />
+              </article>
+            ))}
+          </menu>
+        </section>
+      )} */}
       <section id="blog-section">
         <menu id="blog-menu">
           {data.map((card) => (
