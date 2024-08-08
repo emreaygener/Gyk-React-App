@@ -2,7 +2,7 @@ import "./CrewCard.css";
 
 export default function CrewCard({ crew }) {
   const delayFactor = (crew.id % 23) - 1;
-  const animationDelay = `${delayFactor * 0.1}s`;
+  const animationDelay = `${delayFactor * 0.2}s`;
   return (
     <>
       <article className="crew-card" style={{ animationDelay }}>

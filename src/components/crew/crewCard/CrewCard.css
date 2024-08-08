@@ -22,6 +22,7 @@
 .detail-crew {
   display: none;
   padding-top: 20px;
+  color: #333333;
 }
 .crew-card {
   opacity: 0;
@@ -40,6 +41,10 @@
   height: 400px;
 }
 
+.crew-card h4 {
+  color: #084c44;
+}
+
 #crew-img {
   grid-row: 1 / span 12;
   grid-column: 1 / span 12;
@@ -51,7 +56,7 @@
   color: #bf975c;
   grid-row: 9 / span 4;
   grid-column: 1 / span 12;
-  padding: 40px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,10 +81,4 @@
   animation-name: fadein-text;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
-}
-
-@media (max-width: 800px) {
-  .crew-text {
-    padding: 20px;
-  }
 }
