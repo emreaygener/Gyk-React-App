@@ -14,10 +14,9 @@
 }
 
 #crew-header {
-  width: fit-content;
-  margin: auto;
   color: #bf975c;
-  border-bottom: #084c44 solid 2px;
+  text-decoration: underline #084c44 2px solid;
+  text-underline-offset: 0.2em;
   font-size: 2.5rem;
 
   text-align: center;
