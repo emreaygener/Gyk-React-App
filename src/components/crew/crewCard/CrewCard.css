@@ -70,10 +70,11 @@
   text-align: center;
 }
 
-.crew-card:hover,
-.crew-card:active,
-.crew-card:focus {
+.crew-card a:hover,
+.crew-card a:active,
+.crew-card a:focus {
   cursor: pointer;
+  color: #084c44;
 }
 
 .crew-card:hover .detail-crew,

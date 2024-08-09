@@ -13,17 +13,37 @@
   }
 }
 
+.crew-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 70px;
+}
+
 #crew-header {
   color: #bf975c;
-  text-decoration: underline #084c44 2px solid;
-  text-underline-offset: 0.2em;
-  font-size: 2.5rem;
-
-  text-align: center;
+  -webkit-text-fill-color: #bf975c;
+  border-bottom: #084c44 solid 2px;
 }
 
 #crew-subheader {
-  margin: 20px;
-  color: #333333;
-  text-align: center;
+  background: linear-gradient(to right, #333333, #084c44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 650px) {
+  .crew-header {
+    padding: 20px;
+  }
+
+  #crew-subheader {
+    background: linear-gradient(to bottom, #333333, #084c44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
