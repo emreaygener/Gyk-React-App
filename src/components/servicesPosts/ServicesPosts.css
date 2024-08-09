@@ -1,0 +1,29 @@
+.services-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.services-header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #bf975c;
+  border-bottom: #084c44 solid 3px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 809px) {
+  .services-header {
+    margin: 20px;
+  }
+}
