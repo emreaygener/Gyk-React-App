@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import About from "./about/About";
 import Crew from "./crew/Crew";
 import ServicesPosts from "./servicesPosts/ServicesPosts";
+import Blog from "./blog/Blog";
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
         <Route path="/about/*" element={<About />} />
         <Route path="/crew" element={<Crew />} />
         <Route path="/services" element={<ServicesPosts />} />
+        <Route path="/blog" element={<Blog />} />
 
         <Route path="*" element={<h1>Site on progress..</h1>} />
       </Routes>
