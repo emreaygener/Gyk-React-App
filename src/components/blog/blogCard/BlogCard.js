@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./BlogCard.css";
 
 export default function BlogCard({ post }) {
@@ -9,7 +10,7 @@ export default function BlogCard({ post }) {
         <h3>{post.author}</h3>
         <p>{post.summary}</p>
       </section>
-      <a href={`/blog/${post.id}`}>Read More</a>
+      <Link to={`/blog/${post.id}`}>Read More</Link>
     </article>
   );
 }
