@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Gyk-React-App/static/css/main.eb4e865e.css",
-    "main.js": "/Gyk-React-App/static/js/main.94dedb3e.js",
+    "main.css": "/Gyk-React-App/static/css/main.5d960d3e.css",
+    "main.js": "/Gyk-React-App/static/js/main.5a78be56.js",
     "static/media/logoheaderwide.jpeg": "/Gyk-React-App/static/media/logoheaderwide.af16269c1e678f9a6c58.jpeg",
     "static/media/logogoldnobgcrop.png": "/Gyk-React-App/static/media/logogoldnobgcrop.7c7d39202d158dd2914a.png",
     "static/media/logogreennobgcrop.png": "/Gyk-React-App/static/media/logogreennobgcrop.841395148f6bbba27f16.png",
     "index.html": "/Gyk-React-App/index.html",
-    "main.eb4e865e.css.map": "/Gyk-React-App/static/css/main.eb4e865e.css.map",
-    "main.94dedb3e.js.map": "/Gyk-React-App/static/js/main.94dedb3e.js.map"
+    "main.5d960d3e.css.map": "/Gyk-React-App/static/css/main.5d960d3e.css.map",
+    "main.5a78be56.js.map": "/Gyk-React-App/static/js/main.5a78be56.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb4e865e.css",
-    "static/js/main.94dedb3e.js"
+    "static/css/main.5d960d3e.css",
+    "static/js/main.5a78be56.js"
   ]
 }
