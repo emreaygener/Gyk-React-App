@@ -8,10 +8,10 @@ export default function ServicesCard({ service }) {
       className="services-card"
       style={{ backgroundImage, animationDelay }}
     >
-      <section className="services-text">
-        <h3>{service.title}</h3>
+      <details className="services-text">
+        <summary>{service.title}</summary>
         <p>{service.content}</p>
-      </section>
+      </details>
     </article>
   );
 }
