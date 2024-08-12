@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Gyk-React-App/static/css/main.9f87a75f.css",
-    "main.js": "/Gyk-React-App/static/js/main.95e05296.js",
+    "main.css": "/Gyk-React-App/static/css/main.6b31e21e.css",
+    "main.js": "/Gyk-React-App/static/js/main.b21e95c2.js",
     "static/media/logoheaderwide.jpeg": "/Gyk-React-App/static/media/logoheaderwide.af16269c1e678f9a6c58.jpeg",
     "static/media/logogoldnobgcrop.png": "/Gyk-React-App/static/media/logogoldnobgcrop.7c7d39202d158dd2914a.png",
     "static/media/logogreennobgcrop.png": "/Gyk-React-App/static/media/logogreennobgcrop.841395148f6bbba27f16.png",
     "index.html": "/Gyk-React-App/index.html",
-    "main.9f87a75f.css.map": "/Gyk-React-App/static/css/main.9f87a75f.css.map",
-    "main.95e05296.js.map": "/Gyk-React-App/static/js/main.95e05296.js.map"
+    "static/media/crossSvg.svg": "/Gyk-React-App/static/media/crossSvg.f7bdd0e274f486de4951172530696a53.svg",
+    "static/media/tickSvg.svg": "/Gyk-React-App/static/media/tickSvg.8b969a3a823a0029ab5964bb8e4e56ab.svg",
+    "main.6b31e21e.css.map": "/Gyk-React-App/static/css/main.6b31e21e.css.map",
+    "main.b21e95c2.js.map": "/Gyk-React-App/static/js/main.b21e95c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f87a75f.css",
-    "static/js/main.95e05296.js"
+    "static/css/main.6b31e21e.css",
+    "static/js/main.b21e95c2.js"
   ]
 }
