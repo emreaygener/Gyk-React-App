@@ -6,6 +6,7 @@ import Crew from "./crew/Crew";
 import ServicesPosts from "./servicesPosts/ServicesPosts";
 import Blog from "./blog/Blog";
 import BlogDetail from "./blog/blogDetail/BlogDetail";
+import Form from "./form/Form";
 
 export default function Main() {
   return (
@@ -19,6 +20,8 @@ export default function Main() {
         <Route path="/services" element={<ServicesPosts />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="blog/:id" element={<BlogDetail />} />
+        <Route path="/careers" element={<Form type="career" />} />
+        <Route path="/contact" element={<Form type="contact" />} />
 
         <Route path="*" element={<h1>Site on progress..</h1>} />
       </Routes>
