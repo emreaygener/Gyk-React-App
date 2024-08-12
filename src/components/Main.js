@@ -5,6 +5,7 @@ import About from "./about/About";
 import Crew from "./crew/Crew";
 import ServicesPosts from "./servicesPosts/ServicesPosts";
 import Blog from "./blog/Blog";
+import BlogDetail from "./blog/blogDetail/BlogDetail";
 
 export default function Main() {
   return (
@@ -17,6 +18,7 @@ export default function Main() {
         <Route path="/crew" element={<Crew />} />
         <Route path="/services" element={<ServicesPosts />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="blog/:id" element={<BlogDetail />} />
 
         <Route path="*" element={<h1>Site on progress..</h1>} />
       </Routes>
