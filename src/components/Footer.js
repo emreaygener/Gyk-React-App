@@ -11,7 +11,14 @@ export default function Footer() {
       </picture>
       <section className="footer-content">
         <div className="footer-text">
-          <Link to="/contact">
+          <Link
+            to="/contact"
+            onClick={() => {
+              setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }, 100);
+            }}
+          >
             <h3 id="contactus-footer">Contact Us</h3>
           </Link>
 

@@ -9,7 +9,9 @@ export default function ServicesCard({ service }) {
       style={{ backgroundImage, animationDelay }}
     >
       <details className="services-text">
-        <summary>{service.title}</summary>
+        <summary>
+          <strong>{service.title}</strong>
+        </summary>
         <p>{service.content}</p>
       </details>
     </article>

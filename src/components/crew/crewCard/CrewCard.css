@@ -27,7 +27,8 @@
 .crew-card {
   opacity: 0;
   animation-name: fadein-card;
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 

@@ -41,7 +41,7 @@
   color: #333;
 }
 
-.card a {
+/* .card a {
   margin-top: 10px;
   color: #c09760;
   text-decoration: none;
@@ -49,9 +49,10 @@
 
 .card a:hover {
   text-decoration: underline;
-}
+} */
 
 .card button {
+  width: 100%;
   margin-top: 10px;
   border: none;
   border-radius: 25px;

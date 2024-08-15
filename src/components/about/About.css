@@ -17,7 +17,7 @@
 
 .about-content {
   margin: auto;
-  max-width: 60dvw;
+  max-width: 1200px;
   min-height: 40vh;
   display: flex;
   flex-direction: column;

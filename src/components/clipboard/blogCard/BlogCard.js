@@ -1,4 +1,5 @@
 import { Button, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./BlogCard.css";
 
 const BlogCard = ({ data }) => {
@@ -12,7 +13,9 @@ const BlogCard = ({ data }) => {
         <Card.Body>
           <Card.Title>{data.title}</Card.Title>
           <Card.Subtitle>{data.author}</Card.Subtitle>
-          <Button variant="primary">Read more</Button>
+          <Link to={`/blog/${data.id}`}>
+            <Button variant="primary">Read more</Button>
+          </Link>
         </Card.Body>
       </Card>
     </>
