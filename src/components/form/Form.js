@@ -197,6 +197,7 @@ export default function Form(props) {
               value={form.reason}
               onChange={handleChange}
             >
+              <option value="">Select Reason</option>
               <option value="question">Some Position</option>
               <option value="feedback">General Application</option>
             </select>
@@ -278,6 +279,7 @@ export default function Form(props) {
               value={form.reason}
               onChange={handleChange}
             >
+              <option value="">Select Reason</option>
               <option value="consultancy">Consultancy</option>
               <option value="question">Question</option>
               <option value="feedback">Feedback</option>
