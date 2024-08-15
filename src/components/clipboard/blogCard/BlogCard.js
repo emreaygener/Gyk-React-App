@@ -13,7 +13,14 @@ const BlogCard = ({ data }) => {
         <Card.Body>
           <Card.Title>{data.title}</Card.Title>
           <Card.Subtitle>{data.author}</Card.Subtitle>
-          <Link to={`/blog/${data.id}`}>
+          <Link
+            to={`/blog/${data.id}`}
+            onClick={() => {
+              setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }, 100);
+            }}
+          >
             <Button variant="primary">Read more</Button>
           </Link>
         </Card.Body>
