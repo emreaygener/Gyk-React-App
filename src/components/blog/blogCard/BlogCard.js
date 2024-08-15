@@ -10,7 +10,16 @@ export default function BlogCard({ post }) {
         <h3>{post.author}</h3>
         <p>{post.summary}</p>
       </section>
-      <Link to={`/blog/${post.id}`}>Read More</Link>
+      <Link
+        onClick={() => {
+          setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }, 100);
+        }}
+        to={`/blog/${post.id}`}
+      >
+        Read More
+      </Link>
     </article>
   );
 }
