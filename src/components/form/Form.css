@@ -72,7 +72,7 @@
 
 .form .icon {
   position: relative;
-  top: -40px;
+  top: -42px;
   right: 6px;
 }
 
@@ -89,9 +89,23 @@
   padding-right: 0.6rem;
 }
 
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  .form select ~ .error-div,
+  .form select ~ .valid-div {
+    padding-right: 1rem;
+  }
+}
+
+@supports (-moz-appearance: none) {
+  .form textarea ~ .error-div img,
+  .form textarea ~ .valid-div img {
+    top: -42px;
+  }
+}
+
 .form textarea ~ .error-div img,
 .form textarea ~ .valid-div img {
-  top: -45px;
+  top: -40px;
 }
 
 .form .valid-div {
