@@ -84,6 +84,15 @@
     color: red;
   }
 }
+.form select ~ .error-div,
+.form select ~ .valid-div {
+  padding-right: 0.6rem;
+}
+
+.form textarea ~ .error-div img,
+.form textarea ~ .valid-div img {
+  top: -45px;
+}
 
 .form .valid-div {
   display: flex;
