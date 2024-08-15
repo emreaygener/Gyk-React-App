@@ -93,3 +93,9 @@
     color: #084c44;
   }
 }
+
+.form select {
+  padding: 10px;
+  background-color: #fff;
+  height: 48px;
+}
