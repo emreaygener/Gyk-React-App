@@ -100,4 +100,7 @@ footer {
   #address-long {
     display: none;
   }
+  .footer-map {
+    display: none;
+  }
 }

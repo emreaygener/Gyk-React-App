@@ -8,6 +8,9 @@ menu#blog-menu {
   justify-content: center;
 }
 
+#blog-menu article {
+}
+
 @media (max-width: 820px) {
   menu#blog-menu {
     gap: 20px;

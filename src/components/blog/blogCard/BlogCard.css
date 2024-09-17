@@ -6,7 +6,7 @@
   max-width: 1200px;
   min-height: 200px;
 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 
   display: flex;
   flex-wrap: wrap;

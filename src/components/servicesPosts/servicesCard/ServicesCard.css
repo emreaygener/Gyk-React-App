@@ -32,6 +32,7 @@
   text-align: justify;
   gap: 50px;
   padding: 20px;
+  border-radius: 16px;
   background-color: #edefeeb4;
   color: #084c44;
 }
